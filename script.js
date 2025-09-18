@@ -1,6 +1,6 @@
 function stringChop(str, size) {
   let result = [];
-
+ if (!str) return [];
   size = Number(size); // convert input to number
   
 
