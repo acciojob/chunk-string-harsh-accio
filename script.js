@@ -2,7 +2,7 @@ function stringChop(str, size) {
   let result = [];
 
   size = Number(size); // convert input to number
-  if (size <= 0) throw new Error("Chunk size must be greater than 0");
+  
 
   if (size >= str.length) {
     result.push(str);
